@@ -1,0 +1,104 @@
+html,body{
+  width:100%;
+  margin:0;
+  height:100%;
+  font-family: 'Montserrat', sans-serif !important;
+  background: #253c69 !important;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.title {
+  font-weight: bold;
+  margin: 0;
+  color: #293c66;
+  background: linear-gradient(to bottom left, #62BED2, #C4F8FF, #62BED2);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.triangle {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 30px);
+  margin-bottom: 10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 30px 0 30px;
+  border-color: #253c69 transparent transparent transparent;
+}
+
+.arrow {
+  position: absolute;
+  width: 100%;
+  padding-bottom:3%;
+  background-color: #253c69;
+}
+
+.arrow:before, .arrow:after {
+  content:'';
+  position: absolute;
+  bottom: 100%;
+  width: 50%;
+  padding-bottom:inherit;
+  background-color: inherit;
+  border-top: 2px solid #253c69;
+}
+
+.arrow:before {
+  right: 50%;
+  -ms-transform-origin: 100% 100%;
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -ms-transform: skewX(45deg);
+  -webkit-transform: skewX(45deg);
+  transform: skewX(45deg);
+  border-right: 3px solid #253c69;
+  margin-right:-2px;
+}
+
+.arrow:after {
+  left: 50%;
+  -ms-transform-origin: 0 100%;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -ms-transform: skewX(-45deg);
+  -webkit-transform: skewX(-45deg);
+  transform: skewX(-45deg);
+  border-left: 3px solid #253c69;
+  margin-left:-2px;
+}
+
+
+.logo {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+h3 {
+ line-height: 2.0 !important;
+}
+
+.white {
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.ece-day-splash {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.section {
+  margin-top: 10vh;
+}
+
+.transparent
+{
+    background-color: transparent;
+}
