@@ -7,22 +7,6 @@ Primary style
   box-sizing: border-box;
 }
 
-.cd-schedule {
-  font-size: 62.5% !important;
-}
-
-body {
-  font-size: 1.6rem;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #222222;
-  background-color: white;
-}
-
-a {
-  color: #A2B9B2;
-  text-decoration: none;
-}
-
 /* --------------------------------
 
 Main Components
@@ -31,6 +15,11 @@ Main Components
 .cd-schedule {
   position: relative;
   margin: 2em 0;
+  color: white;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 .cd-schedule::before {
@@ -57,6 +46,7 @@ Main Components
 
 .cd-schedule .timeline {
   display: none;
+  color: white;
 }
 
 @media only screen and (min-width: 800px) {
@@ -126,6 +116,7 @@ Main Components
   line-height: 1.2;
   margin-bottom: 10px;
   font-weight: bold;
+  color: white;
 }
 
 .cd-schedule .events .events-group > ul {
@@ -234,7 +225,7 @@ Main Components
     /* top position and height will be set using js */
     width: calc(100% + 2px);
     left: -1px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), inset 0 -3px 0 rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), inset 0 -3px 0 rgba(0, 0, 0, 0.2);*/
     /* reset style */
     -ms-flex-negative: 1;
         flex-shrink: 1;
@@ -280,12 +271,12 @@ Main Components
 }
 
 .cd-schedule .event-name {
-  font-size: 2.4rem;
+  font-size: 1.24rem;
 }
 
 @media only screen and (min-width: 800px) {
   .cd-schedule .event-name {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -300,38 +291,38 @@ Main Components
 .cd-schedule .single-event[data-event="event-1"],
 .cd-schedule [data-event="event-1"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
-  background: #577F92;
+  background: #349db4;
 }
 
 .cd-schedule .single-event[data-event="event-1"]:hover {
-  background: #618da1;
+  background: #3aaec7;
 }
 
 .cd-schedule .single-event[data-event="event-2"],
 .cd-schedule [data-event="event-2"] .header-bg {
-  background: #443453;
+  background: #4eb6cc;
 }
 
 .cd-schedule .single-event[data-event="event-2"]:hover {
-  background: #513e63;
+  background: #62bed2;
 }
 
 .cd-schedule .single-event[data-event="event-3"],
 .cd-schedule [data-event="event-3"] .header-bg {
-  background: #A2B9B2;
+  background: #76c6d8;
 }
 
 .cd-schedule .single-event[data-event="event-3"]:hover {
-  background: #b1c4be;
+  background: #8acedd;
 }
 
 .cd-schedule .single-event[data-event="event-4"],
 .cd-schedule [data-event="event-4"] .header-bg {
-  background: blue;
+  background: #89cfdd;
 }
 
 .cd-schedule .single-event[data-event="event-4"]:hover {
-  background: #f7bd7f;
+  background: #9dd7e3;
 }
 
 .cd-schedule .event-modal {
@@ -392,6 +383,7 @@ Main Components
   overflow: auto;
   height: 100%;
   padding: 1.4em 5%;
+  font-size: 1.4rem;
 }
 
 .cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .body-bg {
@@ -592,8 +584,8 @@ Main Components
   z-index: 2;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background: rgba(0, 0, 0, 0.8);
   opacity: 0;
   visibility: hidden;
@@ -604,4 +596,46 @@ Main Components
 .cd-schedule.modal-is-open .cover-layer {
   opacity: 1;
   visibility: visible;
+}
+
+.alumni {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../graphics/alumni.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.companies {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../graphics/companies.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.foodtrucks {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../graphics/foodtrucks.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.keynote {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../graphics/keynote.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.research {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../graphics/research.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.volunteers {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../graphics/volunteers.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.workshops {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../graphics/workshops.jpg");
+  background-size: cover;
+  background-position: center;
 }
