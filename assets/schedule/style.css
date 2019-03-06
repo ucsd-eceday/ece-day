@@ -599,7 +599,7 @@ a {
 }
 
 .alumni {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../graphics/alumni.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../graphics/alumni.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -623,7 +623,7 @@ a {
 }
 
 .research {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../graphics/research.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../graphics/research.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -635,7 +635,7 @@ a {
 }
 
 .workshops {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../graphics/workshops.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../graphics/workshops.jpg");
   background-size: cover;
   background-position: center;
 }

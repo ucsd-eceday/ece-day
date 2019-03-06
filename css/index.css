@@ -33,6 +33,10 @@ a {
   border-color: #253c69 transparent transparent transparent;
 }
 
+.triangle:hover {
+  cursor: pointer;
+}
+
 .arrow {
   position: absolute;
   width: 100%;
@@ -99,7 +103,8 @@ h3 {
 }
 
 .about p {
-  font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300))) !important;
+  margin: 0 60px;
+  font-size: calc(20px + (25 - 20) * ((100vw - 250px) / (1600 - 250))) !important;
   line-height: 2.0 !important;
 }
 
@@ -200,6 +205,14 @@ h3 {
   .heading {
     text-align: center;
   }
+
+  .about {
+    text-align: center;
+  }
+
+  .about p {
+    margin: 0 20px;
+  }
 }
 
 .contact {
@@ -213,4 +226,13 @@ h3 {
 
 .contact i {
   margin: 20px;
+  transition: all .2s ease-in-out;
+}
+
+.contact i:hover {
+  transform: scale(1.1);
+}
+
+.subtitle {
+  margin-left: 70px;
 }
