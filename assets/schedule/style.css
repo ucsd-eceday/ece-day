@@ -629,7 +629,7 @@ a {
 }
 
 .volunteers {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../graphics/volunteers.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../graphics/volunteers.jpg");
   background-size: cover;
   background-position: center;
 }
